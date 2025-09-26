@@ -17,7 +17,7 @@ module fourOneMuxTB;
 
   initial begin
     $dumpfile("mux4_gate.vcd");   
-    $dumpvars(0, tb_mux4_gate);   
+    $dumpvars(0, fourOneMuxTB);   
   end
   
   initial begin
